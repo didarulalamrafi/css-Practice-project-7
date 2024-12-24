@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    margin: 3vh 16.5vw;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+.center{
+    background-color: aqua;
+    max-width:200px;
+    min-height: 200px;
+    border-radius: 50%;
+    position:relative;
+    left: 14vw;
+    top: 32vh;
+}
+.center h1{
+    max-width: fit-content;
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    left: 8%;
+    /* transform: translate(-50% -50%); */
+}
+.child{
+    max-width: 400vw;
+    max-height: 400vh;
+    margin: 49.5vh 36.5vw;
+    position: absolute;
+    top: -14vh;
+    left: -6vw;
+    border-radius: 20px;
+    padding: 50px;
+    color: white;
+    text-align: center;
+}
+.child h4{
+    max-font-size: 20px;
+    align-items: center;
+    padding: 40% 10%;
+}
+.panel{
+    background-color: red;
+    width: 800px;
+}
+.panel1{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: black;
+    top: -80px;
+    left: -80px;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    /* position: relative; */
+}
+.panel2{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: blue;
+    top: -120px;
+    left: 60px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.panel3{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: rgb(234, 238, 12);
+    top: -70px;
+    left: 180px;
+    border-radius: 20px;
+    text-align: center;
+}
+.panel4{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color:rgb(12, 238, 42);
+    top: 50px;
+    left: 220px;
+    border-radius: 20px;
+    text-align: center;
+}
+.panel5{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color:rgb(238, 12, 68);
+    top: 170px;
+    left: 190px;
+    border-radius: 20px;
+    text-align: center;
+}
+.panel6{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color:rgb(12, 155, 238);
+    top: 210px;
+    left: 70px;
+    border-radius: 20px;
+    text-align: center;
+}
+.panel7{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color:rgb(247, 8, 8);
+    top: 200px;
+    left: -60px;
+    border-radius: 20px;
+    text-align: center;
+}
+.panel8{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color:rgb(238, 148, 12);
+    top: 60px;
+    left: -120px;
+    border-radius: 20px;
+    text-align: center;
+}
